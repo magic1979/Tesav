@@ -811,6 +811,7 @@ function chiudi0(){
 	//IPAD CHANGE
 	if(isMobileScreenWidth < 768){
 		$("#pippo0").hide("slow");
+	}
 	else{
 		$("#pippo0IPAD").hide("slow");
 	}
@@ -941,22 +942,23 @@ function aprimappa () {
 
 function aprivideo1 () {
 	
-	var id = "cf5PVgbrlCM";
-	var ref = window.open('http://www.youtube.com/embed/cf5PVgbrlCM?html5=1', '_system');
+
+	//var id = "cf5PVgbrlCM";
+	//var ref = window.open('http://www.youtube.com/embed/cf5PVgbrlCM?html5=1', '_system');
 	
-	ref.addEventListener('exit', function (event) {
+	//ref.addEventListener('exit', function (event) {
 		
-		setTimeout (function(){
-			ref.close();
-		}, 500);
+		//setTimeout (function(){
+			//ref.close();
+		//}, 500);
 		
-	});
+	//});
 	
 }
 
 function aprivideo2 () {
 	
-	var id = "Hl10lNEVBrU";
+	/*var id = "Hl10lNEVBrU";
 	var reff = window.open('http://www.youtube.com/embed/Hl10lNEVBrU?html5=1', '_system');
 	
 	reff.addEventListener('exit', function (event) {
@@ -965,8 +967,7 @@ function aprivideo2 () {
 			reff.close();
 		}, 500);
 		
-	});
-
+	});*/
 }
 
 
