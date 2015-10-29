@@ -754,6 +754,7 @@ function aprisms(){
 }
 
 function aprisms0(){
+	
 	("#pippo0").show("slow");
 }
 
