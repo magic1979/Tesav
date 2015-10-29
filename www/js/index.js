@@ -745,6 +745,7 @@ function regToken() {
 	   
 }
 
+
 function apri(){
 	$("#pippo").show( "slow" );
 }
@@ -754,14 +755,11 @@ function aprisms(){
 }
 
 function aprisms0(){
-	
-	("#pippo0").show("slow");
+	$("#pippo0").show("slow");
 }
 
 function chiudi(){
-
 	$("#pippo").hide( "slow" );
-
 }
 
 function chiudi5(){
