@@ -746,75 +746,29 @@ function regToken() {
 }
 
 function apri(){
-		var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
-			
-		//IPAD CHANGE
-		if(isMobileScreenWidth < 768){
-			$("#pippo").show( "slow" );
-		}
-		else{
-			$("#pippoPAD").show( "slow" );
-		}
+	$("#pippo").show( "slow" );
 }
 
 function aprisms(){
-	var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
-			
-	//IPAD CHANGE
-	if(isMobileScreenWidth < 768){
-		$("#pippo5").show("slow");
-	}
-	else{
-		$("#pippo5IPAD").show("slow");
-	}
+	$("#pippo5").show("slow");
 }
 
 function aprisms0(){
-	var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
-			
-	//IPAD CHANGE
-	if(isMobileScreenWidth < 768){
-		$("#pippo0").show("slow");
-	}
-	else{
-		$("#pippo0IPAD").show("slow");
-	}
+	("#pippo0").show("slow");
 }
 
 function chiudi(){
-	var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
-			
-	//IPAD CHANGE
-	if(isMobileScreenWidth < 768){
-		$("#pippo").hide( "slow" );
-	}
-	else{
-		$("#pippoIPAD").hide( "slow" );
-	}
+
+	$("#pippo").hide( "slow" );
+
 }
 
 function chiudi5(){
-	var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
-			
-	//IPAD CHANGE
-	if(isMobileScreenWidth < 768){
-		$("#pippo5").hide("slow");
-	}
-	else{
-		$("#pippo5IPAD").hide("slow");
-	}
+	$("#pippo5").hide("slow");
 }
 
 function chiudi0(){
-	var isMobileScreenWidth = (screen.width / window.devicePixelRatio)
-			
-	//IPAD CHANGE
-	if(isMobileScreenWidth < 768){
-		$("#pippo0").hide("slow");
-	}
-	else{
-		$("#pippo0IPAD").hide("slow");
-	}
+	$("#pippo0").hide("slow");
 }
 
 function vedi () {
